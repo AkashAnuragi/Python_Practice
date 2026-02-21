@@ -3,107 +3,75 @@
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Status](https://img.shields.io/badge/Status-Learning-green)
 ![Focus](https://img.shields.io/badge/Focus-Data%20Science-orange)
-![Made With Love](https://img.shields.io/badge/Made%20By-YourName-red)
 
 ---
 
 ## 📖 About This Repository
 
-This repository contains my daily practice while learning **Python for Data Science**.
-I am building strong foundations required for **Data Analysis, Visualization, and Machine Learning**.
-
-The goal is not just coding — but improving **problem solving + logical thinking + interview preparation**.
-
----
-
-## 🧠 Skills I'm Learning
-
-* Python Programming
-* Data Cleaning
-* Data Analysis
-* Visualization
-* Logical Problem Solving
+This repository contains my practice work while learning **Python for Data Science**.  
+It includes basics, pattern programs, real-world data analysis logic, and visualization practice.  
+I’m building strong fundamentals to become a better **Data Analyst / ML learner**.
 
 ---
 
-## 🛠 Tech Stack
+## 🧠 Skills Covered
 
-| Tool             | Purpose              |
-| ---------------- | -------------------- |
-| Python           | Programming          |
-| NumPy            | Numerical Computing  |
-| Pandas           | Data Analysis        |
-| Matplotlib       | Visualization        |
-| Seaborn          | Statistical Charts   |
-| Jupyter Notebook | Practice Environment |
+### 🐍 Python Fundamentals
+- Variables & Data Types  
+- Operators & Expressions  
+- Conditional Logic  
+- Loops & Iteration  
+- Functions  
+- Exception Handling
+
+### 🧮 Core Topics
+- Lists, Tuples, Sets, Dictionaries  
+- Comprehensions  
+- Lambda & Higher-Order Functions  
+
+### 📊 Data Science Skills
+- **NumPy** Arrays & Operations  
+- **Pandas** DataFrames Analysis  
+- Handling Missing Values  
+- Filtering / Grouping Data  
+
+### 📈 Visualization
+- Matplotlib Charts  
+- Seaborn Visualizations  
+- Line, Bar, Histogram, Scatter
 
 ---
 
-## 📂 Repository Structure
+## 📂 Folder Structure
 
-```
-Python-DataScience-Practice/
+```text
+Python_Practice/
 │
-├── 01_basics/
-├── 02_patterns/
-├── 03_functions/
-├── 04_numpy/
-├── 05_pandas/
-├── 06_visualization/
-└── 07_projects/
+├── basics/
+├── patterns/
+├── functions/
+├── numpy/
+├── pandas/
+├── visualization/
+└── mini_projects/
 ```
 
 ---
 
-## 📊 Practice Topics
+## 🚀 How to Run
 
-### Python Fundamentals
-
-* Variables & Data Types
-* Conditions & Loops
-* Functions
-* Exception Handling
-
-### Problem Solving
-
-* Star Patterns
-* Number Logic
-* Interview Questions
-
-### Data Science
-
-* NumPy Arrays
-* Pandas DataFrames
-* Data Cleaning
-* GroupBy Operations
-* Real Dataset Analysis
-
-### Visualization
-
-* Line Chart
-* Bar Chart
-* Histogram
-* Scatter Plot
-
----
-
-## ⚡ How To Run
-
-Clone repository:
-
-```
-git clone https://github.com/yourusername/Python-DataScience-Practice.git
+1. **Clone the repository**
+```bash
+git clone https://github.com/AkashAnuragi/Python_Practice.git
 ```
 
-Install required libraries:
-
-```
+2. **Install necessary libraries**
+```bash
 pip install numpy pandas matplotlib seaborn jupyter
 ```
 
-Run Jupyter Notebook:
-
-```
+3. **Run Jupyter Notebook**
+```bash
 jupyter notebook
 ```
 
@@ -111,24 +79,16 @@ jupyter notebook
 
 ## 🎯 My Goal
 
-* Become Data Analyst
-* Crack technical interviews
-* Build strong portfolio projects
-
----
-
-## 📅 Daily Learning Journey
-
-I update this repository regularly as I progress in Data Science.
+- Strengthen Python logic  
+- Learn Data Analysis workflow  
+- Build portfolio projects  
+- Prepare for Data Analyst interviews
 
 ---
 
 ## 🙋‍♂️ Author
 
-**Your Name**
+**Akash Anuragi**  
+GitHub: https://github.com/AkashAnuragi  
 
-GitHub: https://github.com/yourusername
-
----
-
-⭐ If you like this repository, please give it a star!
+⭐ If you find this repository helpful, please give it a star!
