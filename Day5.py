@@ -1,4 +1,6 @@
 """
+For Loop Exercise
+
 PART 1 – Basic For Loop Questions
 
 Q1. Print Numbers 
@@ -34,7 +36,107 @@ for i in str:
 print("Total Count is: ",count)
 
 
-For Loop Exercise
+PART 2 – Break Related Questions 
+
+Q6. Stop at 5 
+Print numbers from 1 to 10. 
+Stop the loop when the number becomes 5.
+for i in range(1,11):
+    if(i==5):
+        break
+    print(i)
+Q7. Search in List 
+Search for number 25 in a list. 
+If found, print "Found" and stop the loop.
+li = [12,23,34,45,25,231,1]
+for i in li:
+    if(i == 25):
+        print("Found")
+        break
+
+Q8. First Negative Number 
+Given a list of numbers, print the first negative number and stop the loop.
+li = [12,23,34,-45,25,231,1]
+for i in li:
+    if(i < 0):
+        print("Negative number is:",i)
+        break
+
+PART 3 – Continue Related Questions 
+Q9. Skip 5 
+Print numbers from 1 to 10. 
+Skip number 5. 
+for i in range(1,11):
+    if(i==5):
+        continue
+    print(i)
+
+Q10. Skip Even Numbers 
+Print numbers from 1 to 20. 
+Skip all even numbers.
+
+for i in range(1,21):
+    if(i%2==0):
+        continue
+    print(i)
+
+Q11. Skip Letter 
+Print each character of the string "PYTHON". 
+Skip the letter "O". 
+
+str ="PYTHON"
+for i in str:
+    if(i=="O"):
+        continue
+    print(i)
+
+PART 4 – Pass Related Questions 
+Q12. Empty Loop 
+Run a loop from 1 to 5 but do nothing inside the loop using pass.
+
+for i in range(1,6):
+    pass
+    
+Q13. Skip Using Pass 
+Loop from 1 to 10. 
+If number is 6, just use pass.
+
+for i in range(1,11):
+    if(i==6):
+        pass
+    print(i)
+
+PART 5 – For-Else Questions 
+(Remember: else runs only if the loop is not stopped by break.)
+
+Q14. Search Number Using for-else 
+Search for number 100 in a list. 
+If found, print "Found". 
+If not found, print "Not Found".
+
+li = [1,12,23,43,545,65,21,1001,100]
+for i in li:
+    if(i==100):
+        print("Found")
+        break
+else:
+    print("Not Found")
+
+Q15. Prime Number Check 
+Take a number from the user and check whether it is prime using for-else. 
+
+n = int(input("Enter the Number: "))
+if(n<=0):
+    print("Not Prime")
+else:
+    for i in range(2,n):
+        if(n%2 == 0):
+            print("Not Prime")
+            break
+    else:
+        print("prime")
+        
+
  PART 6
 Q16. Star Pattern 
 Print: 
@@ -163,36 +265,7 @@ for i in range(1,6):
         break
     print("*"*i)
 
-Q6. Stop at 5 
-Print numbers from 1 to 10. 
-Stop the loop when the number becomes 5.
-for i in range(1,11):
-    if(i==5):
-        break
-    print(i)
-Q7. Search in List 
-Search for number 25 in a list. 
-If found, print "Found" and stop the loop.
-li = [12,23,34,45,25,231,1]
-for i in li:
-    if(i == 25):
-        print("Found")
-        break
 
-Q8. First Negative Number 
-Given a list of numbers, print the first negative number and stop the loop.
 """
-li = [12,23,34,-45,25,231,1]
-for i in li:
-    if(i < 0):
-        print("Negative number is:",i)
-        break
-
-
-
-
-
-
-
 
 
