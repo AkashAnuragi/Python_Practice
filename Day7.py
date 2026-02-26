@@ -139,7 +139,6 @@ if ch in "AEIOUaeiou":
 else:
     print("Consonant")
 
-
 WAP to find greater value among three
 
 a = 10
