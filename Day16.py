@@ -606,7 +606,25 @@ else:
             print("Fail")
 
 55. Validate strong password using multiple conditions.
-not solved
+password = input("Enter your password: ")
+
+if len(password) < 8:
+    print("Weak Password: Must be at least 8 characters")
+
+elif password.lower() == password:
+    print("Weak Password: Must contain at least one uppercase letter")
+
+elif password.upper() == password:
+    print("Weak Password: Must contain at least one lowercase letter")
+
+elif not any(char.isdigit() for char in password):
+    print("Weak Password: Must contain at least one number")
+
+elif not any(char in "!@#$%^&*()" for char in password):
+    print("Weak Password: Must contain at least one special character")
+
+else:
+    print("Strong Password")
 
 56. Calculate delivery charges based on location and order amount.
 amount = float(input("Enter order amount: "))
@@ -658,16 +676,45 @@ else:
     print("Basic Account")
 
 60. Create a menu-driven program using if–elif–else.
-not solved
+print("Menu")
+print("1. Addition")
+print("2. Subtraction")
+print("3. Multiplication")
+print("4. Division")
 
+choice = int(input("Enter your choice (1-4): "))
 
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
+if choice == 1:
+    print("Result:", num1 + num2)
+
+elif choice == 2:
+    print("Result:", num1 - num2)
+
+elif choice == 3:
+    print("Result:", num1 * num2)
+
+elif choice == 4:
+    if num2 != 0:
+        print("Result:", num1 / num2)
+    else:
+        print("Division by zero not allowed")
+
+else:
+    print("Invalid choice")
     
 """
 
 
 
 
-
+a = input("Whats the email:")
+if ("@")in a and (".") in a:
+    print("Valid Email")
+else:
+    print("invalid")
 
 
 
