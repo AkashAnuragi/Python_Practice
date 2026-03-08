@@ -44,11 +44,35 @@ print("Original List:", li)
 print("Reversed List:", reversed_list)
 
 
-6. Write a program to check if an element exists in a list. 
-7. Write a Python program to remove duplicate elements from a list. 
-8. Write a program to sort a list in ascending and descending order.
-"""
+6. Write a program to check if an element exists in a list.
+numbers = [10, 20, 30, 40, 50]
 
+element = int(input("Enter the element to search: "))
+
+if element in numbers:
+    print("Element exists in the list")
+else:
+    print("Element does not exist in the list")
+
+7. Write a Python program to remove duplicate elements from a list.
+numbers = [1, 2, 2, 3, 4, 4, 5]
+
+unique_list = list(set(numbers))
+
+print("List after removing duplicates:", unique_list)
+
+8. Write a program to sort a list in ascending and descending order.
+numbers = [5, 2, 9, 1, 7]
+
+# Ascending order
+numbers.sort()
+print("Ascending order:", numbers)
+
+# Descending order
+numbers.sort(reverse=True)
+print("Descending order:", numbers)
+
+"""
 
 
 
