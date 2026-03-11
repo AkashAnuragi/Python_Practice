@@ -72,7 +72,39 @@ print("Ascending order:", numbers)
 numbers.sort(reverse=True)
 print("Descending order:", numbers)
 
+Intermediate Level 
+9. Write a program to merge two lists and remove duplicates. 
+li1 = [12,23,34,45,56,67,87]
+li2 = [23,34,12,34,45,21,32]
+li3 = li1 + li2
+print(li3)
+print(set(li3)
+
+
+10. Write a program to find common elements between two lists. 
+list1 = [1, 2, 3, 4, 5]
+list2 = [3, 4, 5, 6, 7]
+
+common = []
+
+for i in list1:
+    if i in list2:
+        common.append(i)
+
+print("Common elements:", common)
+
+11. Write a program to split a list into even and odd numbers. 
+12. Write a program to rotate a list by n positions. 
+13. Write a Python program to find the second largest number in a list. 
+14. Write a program to flatten a nested list. 
+15. Write a program to count frequency of each element in a list. 
+16. Write a program to replace all negative numbers with zero in a list. 
+
 """
+      
+
+
+
 
 
 
