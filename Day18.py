@@ -93,8 +93,25 @@ for i in list1:
 
 print("Common elements:", common)
 
-11. Write a program to split a list into even and odd numbers. 
-12. Write a program to rotate a list by n positions. 
+11. Write a program to split a list into even and odd numbers.
+
+12. Write a program to rotate a list by n positions. # Program to split a list into even and odd numbers
+
+numbers = [10, 15, 22, 33, 40, 55, 60]
+
+even = []
+odd = []
+
+for num in numbers:
+    if num % 2 == 0:
+        even.append(num)
+    else:
+        odd.append(num)
+
+print("Even numbers:", even)
+print("Odd numbers:", odd)
+
+
 13. Write a Python program to find the second largest number in a list. 
 14. Write a program to flatten a nested list. 
 15. Write a program to count frequency of each element in a list. 
