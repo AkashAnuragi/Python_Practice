@@ -45,10 +45,9 @@ print("Reversed List:", reversed_list)
 
 
 6. Write a program to check if an element exists in a list.
+
 numbers = [10, 20, 30, 40, 50]
-
 element = int(input("Enter the element to search: "))
-
 if element in numbers:
     print("Element exists in the list")
 else:
@@ -113,13 +112,17 @@ print("Odd numbers:", odd)
 
 
 13. Write a Python program to find the second largest number in a list. 
+numbers = [10, 20, 30, 40, 50]
+numbers.sort()
+print("Second largest number is:", numbers[-2])
+
+
 14. Write a program to flatten a nested list. 
 15. Write a program to count frequency of each element in a list. 
 16. Write a program to replace all negative numbers with zero in a list. 
 
 """
       
-
 
 
 
