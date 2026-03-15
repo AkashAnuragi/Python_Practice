@@ -117,7 +117,20 @@ numbers.sort()
 print("Second largest number is:", numbers[-2])
 
 
-14. Write a program to flatten a nested list. 
+14. Write a program to flatten a nested list.
+nested_list = [1, [2, 3], [4, 5], 6]
+flat_list = []
+
+for i in nested_list:
+    if type(i) == list:
+        for j in i:
+            flat_list.append(j)
+    else:
+        flat_list.append(i)
+
+print("Flattened list:", flat_list)
+
+
 15. Write a program to count frequency of each element in a list. 
 16. Write a program to replace all negative numbers with zero in a list. 
 
