@@ -131,7 +131,20 @@ for i in nested_list:
 print("Flattened list:", flat_list)
 
 
-15. Write a program to count frequency of each element in a list. 
+15. Write a program to count frequency of each element in a list.
+numbers = [1, 2, 2, 3, 4, 1, 2, 3, 5]
+
+freq = {}
+
+for num in numbers:
+    if num in freq:
+        freq[num] += 1
+    else:
+        freq[num] = 1
+
+print("Frequency of elements:")
+for key, value in freq.items():
+    print(key, ":", value)
 16. Write a program to replace all negative numbers with zero in a list. 
 
 """
