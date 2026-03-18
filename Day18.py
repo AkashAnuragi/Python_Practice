@@ -157,7 +157,24 @@ for i in range(len(numbers)):
 # Output result
 print("Updated list:", numbers)
 
+Advanced Level
+17. Write a program to remove all occurrences of a given element from a list.
+# Input list
+numbers = [10, 20, 30, 20, 40, 20, 50]
 
+# Element to remove
+element = 20
+
+# Remove all occurrences
+numbers = [x for x in numbers if x != element]
+
+# Output
+print("Updated list:", numbers)
+18. Write a program to check if a list is a palindrome.
+19. Write a Python program to find missing numbers in a given list of consecutive integers.
+20. Write a program to perform element-wise addition of two lists.
+21. Write a Python program to find the longest increasing subsequence in a list.
+22. Write a program to group elements based on frequency
 """
       
 
