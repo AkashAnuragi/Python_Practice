@@ -168,6 +168,16 @@ element = 20
 # Remove all occurrences
 numbers = [x for x in numbers if x != element]
 
+
+#another way
+numbers = [10, 20, 30, 20, 40, 20, 50]
+element = 20
+
+while element in numbers:
+    numbers.remove(element)
+
+print("Updated list:", numbers)
+
 # Output
 print("Updated list:", numbers)
 18. Write a program to check if a list is a palindrome.
