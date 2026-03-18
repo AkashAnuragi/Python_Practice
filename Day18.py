@@ -146,11 +146,20 @@ print("Frequency of elements:")
 for key, value in freq.items():
     print(key, ":", value)
 16. Write a program to replace all negative numbers with zero in a list. 
+# Input list
+numbers = [10, -5, 20, -3, 0, -8, 15]
+
+# Replace negative numbers with 0
+for i in range(len(numbers)):
+    if numbers[i] < 0:
+        numbers[i] = 0
+
+# Output result
+print("Updated list:", numbers)
+
 
 """
       
-
-
 
 
 
