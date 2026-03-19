@@ -181,6 +181,14 @@ print("Updated list:", numbers)
 # Output
 print("Updated list:", numbers)
 18. Write a program to check if a list is a palindrome.
+lst = [1, 2, 3, 2, 1]
+
+if lst == lst[::-1]:
+    print("Palindrome list")
+else:
+    print("Not a palindrome list")
+
+    
 19. Write a Python program to find missing numbers in a given list of consecutive integers.
 20. Write a program to perform element-wise addition of two lists.
 21. Write a Python program to find the longest increasing subsequence in a list.
