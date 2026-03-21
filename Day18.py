@@ -190,6 +190,17 @@ else:
 
     
 19. Write a Python program to find missing numbers in a given list of consecutive integers.
+lst = [1, 2, 4, 6, 7, 10]
+
+missing = []
+
+for i in range(min(lst), max(lst) + 1):
+    if i not in lst:
+        missing.append(i)
+
+print("Missing numbers:", missing)
+
+
 20. Write a program to perform element-wise addition of two lists.
 21. Write a Python program to find the longest increasing subsequence in a list.
 22. Write a program to group elements based on frequency
