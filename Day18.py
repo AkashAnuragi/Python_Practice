@@ -202,6 +202,17 @@ print("Missing numbers:", missing)
 
 
 20. Write a program to perform element-wise addition of two lists.
+list1 = [1, 2, 3, 4]
+list2 = [5, 6, 7, 8]
+
+result = []
+
+for a, b in zip(list1, list2):
+    result.append(a + b)
+
+print("Result:", result)
+
+
 21. Write a Python program to find the longest increasing subsequence in a list.
 22. Write a program to group elements based on frequency
 """
