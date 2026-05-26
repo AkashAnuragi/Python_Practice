@@ -80,7 +80,7 @@ print(x >> 1 << 2)
 print(5 + True * False + (not False))
 
 # 19. Operator confusion: 
-print((not 0) * (False or 1))
+print((not 0) * (False or 1))  #True
 
 # 20. Mix of precedence and associativity: 
 print(4 + 3 * 2 ** 2 // 2 - 1) 
